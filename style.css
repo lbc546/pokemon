@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 20px Arial;
+}
+
+path {
+    stroke-width: 2;
+}
+
+.axis path,
+.axis line {
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background: white;
+    border: 10px;
+    border-color: black;
+    box-shadow: 1px 1px 2px 2px #888888;
+}
+
+b {
+    font: 18px sans-serif;
+}
+
+.box select {
+    background-color: Black;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.box select option {
+    padding: 30px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex-grow: 0;
+    flex-shrink: 20%;
+    flex-basis: 33%;
+    height: 800px;
+}
